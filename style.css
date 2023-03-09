@@ -1,0 +1,102 @@
+* {
+  margin: auto;
+  box-sizing: border-box;
+  font-family: "Red Hat Display", sans-serif;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  height: 100vh;
+  display: grid;
+  place-content: center;
+  background-color: hsl(225, 100%, 94%);
+  background-image: url("images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.card {
+  background-color: hsl(225, 100%, 98%);
+  margin: auto;
+  width: 20rem;
+  border-radius: 0 0 15px 15px;
+}
+.img {
+  border-radius: 15px 15px 0 0;
+}
+article {
+  margin: 2rem;
+  text-align: center;
+}
+h1 {
+  font-size: large;
+}
+p {
+  font-size: 0.7rem;
+  margin: 1rem 0;
+  color: hsl(224, 23%, 55%);
+  font-weight: 500;
+}
+.small-card {
+  padding: 0.7rem 0.5rem;
+  display: flex;
+  background-color: hsl(229, 78%, 95%);
+  border-radius: 10px;
+  font-size: 0.7rem;
+}
+.icon-music {
+  margin-left: 0.5rem;
+  margin-right: 0.6rem;
+  background-color: hsl(225, 100%, 94%);
+  border-radius: 100px;
+}
+.plan-info {
+  margin-left: 0;
+  align-self: self-start;
+  font-size: 0.8rem;
+}
+.pail {
+  color: hsl(224, 23%, 55%);
+  margin-top: 0.3rem;
+}
+.plan-change {
+  margin-right: 0.5rem;
+  font-size: 0.6rem;
+}
+button {
+  background-color: hsl(245, 75%, 52%);
+  color: hsl(229, 78%, 95%);
+  font-size: 0.6rem;
+  font-weight: 900;
+  width: 100%;
+  margin-top: 1rem;
+  padding: 0.5rem 0;
+  border: none;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+button:hover {
+  opacity: 0.89;
+  cursor: pointer;
+}
+.last {
+  display: block;
+  font-size: 0.6rem;
+  padding-bottom: 2rem;
+  padding-top: 0.5rem;
+}
+.last:hover {
+  color: black;
+  cursor: pointer;
+}
+@media screen and (max-width: 375px) {
+  .card {
+    width: 15rem;
+  }
+}
